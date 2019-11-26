@@ -7,12 +7,14 @@
 
 class Computer : public Product
 {
+    using Product::Product;
+
     public:
         int ram;
         int screenSize;
         bool isLaptop;
 
-        Computer();
+        //Computer();  put en comment this constructor --> to use the constractor of Product
         virtual ~Computer();
 
         virtual void turnOnOff();

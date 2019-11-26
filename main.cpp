@@ -9,12 +9,14 @@ void displayProduct(Product& _product) //passer la reference
 // passer par reference: impossible de changer l'adress.
 {
 
-    cout << _product.model << endl;
+    cout << _product.model << " @ "<< _product.brand->Getname() << endl;
 }
 
 int main()
 {
-    Computer myComputer;
+    Brand smallSoft;
+    smallSoft.Setname("smallSoft");
+    Computer myComputer(&smallSoft);
 
 
     myComputer.price = 30;

@@ -1,18 +1,25 @@
 # depslib dependency file v1.0
-1574779126 source:c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\main.cpp
+1574783009 source:c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\main.cpp
 	<iostream>
 	"Computer.h"
 
-1574778801 c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\include\product.h
+1574781999 c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\include\product.h
 	<iostream>
+	"Brand.h"
 
-1574774794 source:c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\src\product.cpp
+1574782700 source:c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\src\product.cpp
 	"Product.h"
 
-1574776274 source:c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\src\computer.cpp
+1574782316 source:c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\src\computer.cpp
 	"Computer.h"
 
-1574779084 c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\include\computer.h
+1574782450 c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\include\computer.h
 	<iostream>
 	<Product.h>
+
+1574781769 c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\include\brand.h
+	<iostream>
+
+1574781602 source:c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\src\brand.cpp
+	"Brand.h"
 

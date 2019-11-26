@@ -2,6 +2,7 @@
 #define PRODUCT_H
 
 #include <iostream>
+#include "Brand.h"
 
 class Product
 {
@@ -11,7 +12,9 @@ class Product
         int sizeunit;
         std::string model;
 
-        Product();
+        Brand* brand;
+
+        Product(Brand* _brand);
         virtual ~Product();
 
         virtual void turnOnOff() = 0;
