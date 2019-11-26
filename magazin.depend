@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1574779126 source:c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\main.cpp
+	<iostream>
+	"Computer.h"
+
+1574778801 c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\include\product.h
+	<iostream>
+
+1574774794 source:c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\src\product.cpp
+	"Product.h"
+
+1574776274 source:c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\src\computer.cpp
+	"Computer.h"
+
+1574779084 c:\users\yaniu\desktop\codeblock\test1\magazin\magazin\include\computer.h
+	<iostream>
+	<Product.h>
+
